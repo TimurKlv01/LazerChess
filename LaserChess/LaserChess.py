@@ -30,6 +30,7 @@ while run:
     timer.tick(fps)
     screen.fill((255, 239, 226))
     draw_board()
+    # test2
 
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
