@@ -16,6 +16,9 @@ red_pieces = ['laser', 'reflector', 'reflector', 'reflector', 'reflector', 'refl
 red_locations =[]
 
 
+# new comment
+# line 2
+
 def draw_board():
     for i in range(40):
         column = i % 5
