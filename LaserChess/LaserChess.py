@@ -16,6 +16,7 @@ blue_locations = []
 red_pieces = LaserChess2.get_pieces()
 red_locations =[]
 
+# 123
 
 def draw_board():
     for i in range(40):
