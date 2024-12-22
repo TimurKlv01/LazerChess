@@ -1,4 +1,5 @@
 import pygame
+import LaserChess2
 
 pygame.init()
 WIDTH = 1200
@@ -10,14 +11,11 @@ big_font = pygame.font.Font('freesansbold.ttf', 50)
 timer = pygame.time.Clock()
 fps = 60
 # pieces
-blue_pieces = ['laser', 'reflector', 'reflector', 'reflector', 'reflector', 'reflector', 'reflector', 'reflector', 'defender', 'defender', 'key', 'key', 'king']
+blue_pieces = LaserChess2.get_pieces()
 blue_locations = []
-red_pieces = ['laser', 'reflector', 'reflector', 'reflector', 'reflector', 'reflector', 'reflector', 'reflector', 'defender', 'defender', 'key', 'key', 'king']
+red_pieces = LaserChess2.get_pieces()
 red_locations =[]
 
-
-# new comment
-# line 2
 
 def draw_board():
     for i in range(40):
