@@ -21,6 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="check_options.py" />
     <Compile Include="draw_board.py" />
     <Compile Include="LaserChess.py" />
     <Compile Include="pieces.py" />
