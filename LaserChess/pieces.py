@@ -40,8 +40,8 @@ red_key = pg.transform.scale(red_key, (80, 80))
 red_king = pg.image.load('img/red_king.jpg')
 red_king = pg.transform.scale(red_king, (80, 80))
 
-blue_images = [blue_laser, blue_reflector, blue_defender, blue_key, blue_king]
-red_images = [red_laser, red_reflector, red_defender, red_key, red_king]
+#blue_images = [blue_laser, blue_reflector, blue_defender, blue_key, blue_king]
+#red_images = [red_laser, red_reflector, red_defender, red_key, red_king]
 
 pieces = ['laser', 'reflector', 'reflector', 'reflector', 'reflector', 'reflector', 'reflector', 'reflector', 
                'defender', 'defender', 'key', 'key', 'king']
@@ -53,11 +53,11 @@ blue_locations = [(9, 7), (9, 4), (9, 3), (7, 6), (2, 7), (2, 4), (2, 3),
 red_locations = [(0, 0), (2, 1), (7, 0), (0, 3), (0, 4), (7, 3), (7, 4), 
                   (6, 5), (4, 0), (6, 0), (4, 3), (5, 3), (5, 0)]
 
-blue_transform_images = [blue_laser, blue_reflector, blue_reflector, blue_reflector, blue_reflector, 
+blue_images = [blue_laser, blue_reflector, blue_reflector, blue_reflector, blue_reflector, 
                          blue_reflector, blue_reflector, blue_reflector, blue_defender, blue_defender,
                         blue_key, blue_key, blue_king]
 
-red_transform_images = [red_laser, red_reflector, red_reflector, red_reflector, red_reflector, 
+red_images = [red_laser, red_reflector, red_reflector, red_reflector, red_reflector, 
                          red_reflector, red_reflector, red_reflector, red_defender, red_defender,
                         red_key, red_key, red_king]
 

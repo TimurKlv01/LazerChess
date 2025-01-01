@@ -60,7 +60,8 @@ while run:
                     valid_moves = []
                 if pcs.selection != 12 and pcs.selection != 0 and pcs.selection != 100:
                     if 1090 <= click_coords[0] <= 1160 and 335 <= click_coords[1] <= 405:
-                        pcs.blue_images[4] = pg.transform.rotate(pcs.blue_images[4], 90)
+                        #pcs.blue_images[pcs.piece_list.index(pcs.pieces[pcs.selection])] = \
+                        #pg.transform.rotate(pcs.blue_images[pcs.piece_list.index(pcs.pieces[pcs.selection])], 90)
                         if pcs.turn_step == 1:
                             pcs.turn_step = 2
                             pcs.selection = 100
@@ -71,8 +72,8 @@ while run:
                         pcs.turn_step = 3
                 if main_click_coords in valid_moves and pcs.selection != 100:
                     pcs.red_locations[pcs.selection] = main_click_coords
-                    chop.red_options = chop.check_options(pcs.red_pieces, pcs.red_locations, 'red')
-                    chop.blue_options = chop.check_options(pcs.blue_pieces, pcs.blue_locations, 'blue')
+                    chop.red_options = chop.check_options(pcs.pieces, pcs.red_locations, 'red')
+                    chop.blue_options = chop.check_options(pcs.pieces, pcs.blue_locations, 'blue')
                     pcs.turn_step = 0
                     pcs.selection = 100
                     valid_moves = []
