@@ -25,16 +25,37 @@
     <Compile Include="draw_board.py" />
     <Compile Include="LaserChess.py" />
     <Compile Include="pieces.py" />
+    <Compile Include="laser.py" />
+    <Compile Include="restart.py" />
+    <Compile Include="reverse_board.py" />
+    <Compile Include="starting_configurations.py" />
+    <Compile Include="variables.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="img\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="img\defender.jpg" />
-    <Content Include="img\key.webp" />
-    <Content Include="img\king.jpg" />
-    <Content Include="img\laser.jpg" />
-    <Content Include="img\reflector.webp" />
+    <Content Include="img\blue_defender.png" />
+    <Content Include="img\blue_deflector.png" />
+    <Content Include="img\blue_king.png" />
+    <Content Include="img\blue_laser.png" />
+    <Content Include="img\blue_switch.png" />
+    <Content Include="img\board.png" />
+    <Content Include="img\classic.png" />
+    <Content Include="img\dynasty.png" />
+    <Content Include="img\imhotep.png" />
+    <Content Include="img\left_rotate.png" />
+    <Content Include="img\normal-move.svg" />
+    <Content Include="img\red_defender.png" />
+    <Content Include="img\red_deflector.png" />
+    <Content Include="img\red_king.png" />
+    <Content Include="img\red_laser.png" />
+    <Content Include="img\red_switch.png" />
+    <Content Include="img\restart.webp" />
+    <Content Include="img\reverse.webp" />
+    <Content Include="img\right_rotate.png" />
+    <Content Include="img\special-move.svg" />
+    <Content Include="img\start_background.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
